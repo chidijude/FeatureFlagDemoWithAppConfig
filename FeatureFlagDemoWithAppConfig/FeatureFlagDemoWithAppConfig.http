@@ -1,0 +1,6 @@
+@FeatureFlagDemoWithAppConfig_HostAddress = https://localhost:7133
+
+GET {{FeatureFlagDemoWithAppConfig_HostAddress}}/api/feature/
+Accept: application/json
+
+###
